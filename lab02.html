@@ -1,0 +1,103 @@
+<!--lab2: A webpage about myself-->
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head>
+        <link rel="stylesheet" href="./style.css">
+        <!--password protecting the webpage-->
+        <script>
+                var pass; 
+                var correctpass="webdev"
+                pass=prompt('Enter Password:', '');
+                if (pass==correctpass) {
+                    alert('Correct Password, Click OK to Enter');
+                } else {
+                    window.location="https://www.cs.ryerson.ca/~cps530/";
+                }
+            </script>
+        
+        <title>Lab 02</title>
+        <meta charset="utf-8"> 
+    </head>
+    <body>
+        <div class="intro bg">
+            <h1>Manpreet Rajpal</h1>
+            <p class="studentnum">Student Number: 500874585</p>
+        </div>
+        
+        <div>
+            <p>Hi, my name is Manpreet Rajpal and I am a third year computer science student. So far throughout my undergradute program the computer science courses that I have taken are:</p>
+    
+            <ul>
+                <li>CPS 109: Computer Science 1</li>
+                <li>CPS 213: Computer Organization 1</li>
+                <li>MTH 110: Discrete Mathematics 1</li>
+                <li>CPS 209: Computer Science 2</li>
+                <li>CPS 310: Computeer Organization 2</li>
+                <li>CPS 412: Social Issues, Ethics and Professionalism</li>
+                <li>MTH 207: Calculus and Computational Methods I</li>
+                <li>Communication in the Computer Industry</li>
+                <li>CPS 305: Data Structures</li>
+                <li>CPS 393: Introduction to UNIX, C and C++</li>
+                <li>MTH 108: Linear Algebra</li>
+                <li>CPS 406: Introduction to Software Engineering</li>
+                <li>CPS 420: Discrete Structures</li>
+                <li>CPS 506: Comparative Programming Languages</li>
+                <li>CPS 590: Operating Systems I</li>
+            </ul>
+    
+            <p><b>Currently I am taking 4 computer classes and one elective. Next semester I will again be taking 4 core classes and one elective.</b></p>
+    
+            <table>
+                <tr>
+                    <th colspan="2" rowspan="1">Total Courses: 10</th>
+                </tr>
+                <tr>
+                    <th>Semester 1</th>
+                    <th>Semester 2</th>
+                </tr>
+                <tr>
+                    <td>
+                    <ol>
+                        <li>CPS 721: Artifial Intelligence</li>
+                        <li>CPS 633: Computer Security</li>
+                        <li>CPS 510: Database Systems 1</li>
+                        <li>CPS 530: Web Systems Development</li>
+                        <li>ANT 100: Introduction to Anthropology</li>
+                    </ol> 
+                    </td>
+                    <td>
+                    <ol>
+                        <li>CPS 616: Algorithms</li>
+                        <li>CPS 621: Introduction to Multimedia Systems</li>
+                        <li>CPS 706: Computer Networks 1</li>
+                        <li>CPS 719: Applied Linear Algebra</li>
+                        <li>MUS 505: The History of Pop Culture</li>
+                    </ol> 
+                    </td>
+                </tr>
+            </table>        
+        </div>
+        
+        <div>
+            <h3>More About Me:</h3>
+            <p><b>On my free time I like to create artwork and go for a jog because it helps clear my mind.</b></p>
+            <details>
+                <summary>Click to view images</summary>
+                <img src="./images/art.jpg" alt="art" width="200" height="180">
+                <img src="./images/running.png" alt="running" width="200" height="180">
+            </details>
+            
+    
+            <h4>The links to my validation and technical reports:</h4>
+            <div class="links">
+                <a href="./htmlValidation.html" class="links">HTML Validation Report</a>
+                <a href="./cssValidation.html" class="links">CSS Validation Report</a>
+                <a href="./technical.html" class="links">Technical Report</a>
+            </div>
+        </div>
+        <div>
+                <footer>Manpreet Rajpal 2020</footer>
+        </div>
+        
+    </body>
+</html>
